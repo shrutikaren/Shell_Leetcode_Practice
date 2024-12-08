@@ -7,7 +7,7 @@ TARGET=9
 CURRENT_COUNT=0
 
 # Iterate through the array to obtain the 10th line
-for line in ${arraylines[@]}; do
+for line in "${arraylines[@]}"; do
 	# If we reached line number 10
 	if [ "$CURRENT_COUNT" -eq "$TARGET" ]; then
 		# If the line actually does exist 
